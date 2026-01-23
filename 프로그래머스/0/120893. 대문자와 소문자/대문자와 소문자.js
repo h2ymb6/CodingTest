@@ -1,5 +1,9 @@
 function solution(my_string) {
-    var answer = [];
-    [...my_string].map((_, i) => my_string[i].toUpperCase() == my_string[i] ? answer.push(my_string[i].toLowerCase()) : answer.push(my_string[i].toUpperCase()))
-    return String(answer.join(""))
+    var answer = '';
+    
+    // for(let i=0;i<my_string.length;i++){
+    //     if(my_string[i].toUpperCase == my_string[i]) 
+    // }
+    
+    return [...my_string[0]].toUpperCase
 }
